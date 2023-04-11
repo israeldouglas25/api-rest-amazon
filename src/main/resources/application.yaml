@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: admin
+    password: admin123
+    url: jdbc:mysql://dioclassmysql.cgakxxqwgetm.us-east-2.rds.amazonaws.com/dioclassmysql
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      defer-datasource-initialization: true
