@@ -17,7 +17,7 @@ public class LoadBD {
             log.info("Log of event save user 1:"
                     + repository.save(new Employee(null, "Israel", "Programador", "rua A numero 1")));
             log.info("Log of event save user 1:"
-                    + repository.save(new Employee(null, "Douglas", "Gerente", "rua B numero 2")));
+                    + repository.save(new Employee(null, "Paixão", "Gerente", "rua B numero 2")));
         };
     }
 }
